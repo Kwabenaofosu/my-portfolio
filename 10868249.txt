@@ -1,0 +1,71 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCIT 205 ASSIGNMENT</title>
+</head>
+<body>
+     <h1> MY PORTFOLIO</h1>
+     <br>
+        <h3>Hey welcome to my webpage!</h3>
+        <br>
+        <p><em>Ofosu Kwabena Ebenezer</em></p>
+        <p><em>10868249</em></p>
+        <img src="Images/profile.png" width="300px" height="300px">
+        <p>
+            My name is Ofosu Kwabena Ebenezer. I am from Kyebi, the Eastern Region. I was born the on 18/05/1999. I am a sole trader. I am currently studying Bachelor of Science in Information Technology at the University of Ghana. 
+        </p>
+        <br>
+        <h2>MY EDUCATIONAL INFORMATION</h2>
+        <table border="2px">
+            <tr>
+                <th>NAME OF SCHOOL</th>
+                <th>COURSES OFFERED</th>
+            </tr>
+            <tr>
+                <td>Beautiful Beginning Montessori</td>
+                <td>Integrated Science , Mathematics, Social Stds, English Language, French, RME and BDT</td>
+            </tr>
+            <tr>
+                <td>Pope John Senior High and Minor Seminary</td>
+                <td>Business</td>
+            </tr>
+            <tr>
+                <td>UNIVERSITY OF GHANA, LEGON</td>
+                <td>BSC.INFORMATION TECHNOLOGY</td>
+            </tr>
+        </table>
+        <br>
+         <h2>REGISTER</h2>
+        <form action="">
+            <fieldset>
+                <legend>PERSONAL INFORMATION</legend>
+                <label for="firstname"> First name:</label>
+                <br>
+                <input type="text" id="firstname" name="firstname" ><br>
+                <label for="lastname">Last name:</label><br>
+                <input type="text"  name="lastname" id="lastname"> <br>
+                <label for="age"> Age:</label><br>
+                <input type="number" name="age" id="age" min="0"><br>
+                <label for="tel">Telephone No:</label><br>
+                <input type="tel" name="tel" id="tel" <br><br>
+                <label for="gender">GENDER:</label>
+                 <label for="male"> Male</label>
+                 <input type="radio" value="male" name="gender" id="male">
+                 <label for="female">Female</label>
+                <input type="radio" value="female" name="gender" id="female"><br><br>
+                <label for="idt"> ID TYPE:</label>
+                <select name="ID" id="ID">
+                    <option value="VOTER'S ID">VOTER'S ID</option>
+                    <option value="GHANA CARD">GHANA CARD</option>
+                    <option value="PASSPORT">PASSPORT</option>
+                    <option value="DRIVER LICENCE">DRIVER LICENCE</option>
+                    <option value="NHIS">NHIS</option>
+                </select>
+                 <br><br>
+                 <label for="idno">ID NUMBER:</label>
+                 <input type="text" name="idno" id="idno"><br><br>
+            <input type="submit" value="Submit">
+        </form>
